@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -15592,13 +15592,6 @@ or measure power</text>
 <label x="345.44" y="114.3" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="BOOT0" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="36.83" y1="210.82" x2="43.18" y2="210.82" width="0.1524" layer="91"/>
-<label x="43.18" y="210.82" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="SCL/G7" class="0">
 <segment>
 <pinref part="J4" gate="G$1" pin="4"/>
@@ -15688,7 +15681,7 @@ or measure power</text>
 <label x="190.5" y="152.4" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="3.3V" class="1">
+<net name="3.3V" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="15"/>
 <pinref part="SUPPLY1" gate="G$1" pin="3.3V"/>
@@ -16028,7 +16021,7 @@ or measure power</text>
 <wire x1="101.6" y1="27.94" x2="104.14" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="V_USB" class="1">
+<net name="V_USB" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="10"/>
 <pinref part="SUPPLY3" gate="G$1" pin="V_USB"/>
@@ -16080,6 +16073,11 @@ or measure power</text>
 <wire x1="381" y1="114.3" x2="381" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="381" y1="116.84" x2="383.54" y2="116.84" width="0.1524" layer="91"/>
 <label x="383.54" y="116.84" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="36.83" y1="210.82" x2="43.18" y2="210.82" width="0.1524" layer="91"/>
+<label x="43.18" y="210.82" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="QWIIC_PWR" class="0">
