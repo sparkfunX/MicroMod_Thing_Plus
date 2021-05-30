@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -14854,6 +14854,9 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <part name="C2" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="C3" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
+<part name="GND8" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="H5" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15034,6 +15037,14 @@ can be sensed via D1
 <instance part="GND7" gate="1" x="264.16" y="187.96" smashed="yes">
 <attribute name="VALUE" x="264.16" y="187.706" size="1.778" layer="96" align="top-center"/>
 </instance>
+<instance part="C3" gate="G$1" x="284.48" y="195.58" smashed="yes">
+<attribute name="NAME" x="286.004" y="198.501" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="286.004" y="193.421" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="GND8" gate="1" x="284.48" y="187.96" smashed="yes">
+<attribute name="VALUE" x="284.48" y="187.706" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="H5" gate="G$1" x="246.38" y="55.88" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -15215,6 +15226,11 @@ can be sensed via D1
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="264.16" y1="193.04" x2="264.16" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="284.48" y1="193.04" x2="284.48" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="GND8" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="MICROMOD_PWM0" class="0">
@@ -15424,6 +15440,12 @@ can be sensed via D1
 <pinref part="J7" gate="G$1" pin="2"/>
 <wire x1="208.28" y1="208.28" x2="213.36" y2="208.28" width="0.1524" layer="91"/>
 <label x="213.36" y="208.28" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="284.48" y1="200.66" x2="284.48" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="203.2" x2="287.02" y2="203.2" width="0.1524" layer="91"/>
+<label x="287.02" y="203.2" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="PT_PASS_LED" class="0">
