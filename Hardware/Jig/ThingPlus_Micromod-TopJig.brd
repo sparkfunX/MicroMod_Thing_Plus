@@ -188,7 +188,7 @@
 <plain>
 <dimension x1="0" y1="-1.27" x2="91.44" y2="-1.27" x3="45.72" y3="-7.62" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <dimension x1="-1.27" y1="0" x2="-1.27" y2="22.86" x3="-7.62" y3="11.43" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<text x="50.8" y="31.496" size="1.778" layer="51" font="vector" ratio="15">Ricardo R.</text>
+<text x="49.53" y="36.576" size="1.778" layer="51" font="vector" ratio="15">Ricardo R.</text>
 <wire x1="-0.508" y1="21.59" x2="1.27" y2="23.368" width="0.2032" layer="20" curve="-180"/>
 <wire x1="1.27" y1="23.368" x2="67.818" y2="23.368" width="0.2032" layer="20"/>
 <wire x1="67.818" y1="23.368" x2="67.818" y2="26.288009375" width="0.2032" layer="20"/>
@@ -211,13 +211,13 @@
 <wire x1="-1.778" y1="5.08" x2="-3.81" y2="5.08" width="0.2032" layer="20"/>
 <wire x1="-3.81" y1="5.08" x2="-6.35" y2="2.54" width="0.2032" layer="20" curve="80"/>
 <wire x1="-6.35" y1="2.54" x2="-6.35" y2="-3.81" width="0.2032" layer="20"/>
-<wire x1="-6.35" y1="-3.81" x2="-3.81" y2="-6.35" width="0.2032" layer="20" curve="80"/>
-<wire x1="-3.81" y1="-6.35" x2="95.25" y2="-6.35" width="0.2032" layer="20"/>
-<wire x1="95.25" y1="-6.35" x2="97.79" y2="-3.81" width="0.2032" layer="20" curve="80"/>
-<wire x1="97.79" y1="-3.81" x2="97.79" y2="26.67" width="0.2032" layer="20"/>
-<wire x1="97.79" y1="26.67" x2="95.25" y2="29.21" width="0.2032" layer="20" curve="80"/>
-<wire x1="95.25" y1="29.21" x2="-3.81" y2="29.21" width="0.2032" layer="20"/>
-<wire x1="-3.81" y1="29.21" x2="-6.35" y2="26.67" width="0.2032" layer="20" curve="80"/>
+<wire x1="-6.35" y1="-3.81" x2="1.27" y2="-6.35" width="0.2032" layer="20" curve="80"/>
+<wire x1="1.27" y1="-6.35" x2="97.79" y2="-6.35" width="0.2032" layer="20"/>
+<wire x1="97.79" y1="-6.35" x2="100.33" y2="-3.81" width="0.2032" layer="20" curve="80"/>
+<wire x1="100.33" y1="-3.81" x2="100.33" y2="26.67" width="0.2032" layer="20"/>
+<wire x1="100.33" y1="26.67" x2="97.79" y2="30.48" width="0.2032" layer="20" curve="80"/>
+<wire x1="97.79" y1="30.48" x2="1.27" y2="30.48" width="0.2032" layer="20"/>
+<wire x1="1.27" y1="30.48" x2="-6.35" y2="26.67" width="0.2032" layer="20" curve="80"/>
 <wire x1="-6.35" y1="26.67" x2="-6.35" y2="20.32" width="0.2032" layer="20"/>
 <wire x1="-6.35" y1="20.32" x2="-3.81" y2="17.78" width="0.2032" layer="20" curve="80"/>
 <wire x1="-3.81" y1="17.78" x2="-1.778" y2="17.78" width="0.2032" layer="20"/>
@@ -496,9 +496,9 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 </pass>
 </autorouter>
 <elements>
-<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LEDGER" x="23.114" y="31.496" smashed="yes">
-<attribute name="DESIGNER" value="Ricardo R." x="103.124" y="-9.144" size="1.778" layer="27" display="off"/>
-<attribute name="REV" value="" x="103.124" y="-9.144" size="1.778" layer="27" display="off"/>
+<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LEDGER" x="21.844" y="36.576" smashed="yes">
+<attribute name="DESIGNER" value="Ricardo R." x="101.854" y="-4.064" size="1.778" layer="27" display="off"/>
+<attribute name="REV" value="" x="101.854" y="-4.064" size="1.778" layer="27" display="off"/>
 </element>
 <element name="E$1" library="SparkFun-Hardware" package="STAND-OFF-TIGHT" value="" x="-3.175" y="0" smashed="yes">
 <attribute name="NAME" x="-3.175" y="1.651" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
