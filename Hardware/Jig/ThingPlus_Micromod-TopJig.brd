@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
@@ -188,7 +188,7 @@
 <plain>
 <dimension x1="0" y1="-1.27" x2="91.44" y2="-1.27" x3="45.72" y3="-7.62" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <dimension x1="-1.27" y1="0" x2="-1.27" y2="22.86" x3="-7.62" y3="11.43" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<text x="50.8" y="30.226" size="1.778" layer="51" font="vector" ratio="15">Ricardo R.</text>
+<text x="50.8" y="31.496" size="1.778" layer="51" font="vector" ratio="15">Ricardo R.</text>
 <wire x1="-0.508" y1="21.59" x2="1.27" y2="23.368" width="0.2032" layer="20" curve="-180"/>
 <wire x1="1.27" y1="23.368" x2="67.818" y2="23.368" width="0.2032" layer="20"/>
 <wire x1="67.818" y1="23.368" x2="67.818" y2="26.288009375" width="0.2032" layer="20"/>
@@ -226,8 +226,6 @@
 <text x="19.685" y="26.543" size="1.5875" layer="21" font="vector" ratio="15" align="center">#88</text>
 <text x="19.685" y="-3.683" size="1.5875" layer="21" font="vector" ratio="15" align="center">MicroMod Thing Plus</text>
 <text x="71.755" y="-3.683" size="1.5875" layer="21" font="vector" ratio="15" align="center">18027</text>
-<text x="96.7105" y="11.43" size="1.5875" layer="1" font="vector" ratio="15" rot="R90" align="center">Up-TopLayer</text>
-<text x="96.7105" y="11.43" size="1.5875" layer="16" font="vector" ratio="15" rot="MR90" align="center">Down-TopLayer</text>
 <text x="57.15" y="26.8605" size="1.5875" layer="1" font="vector" ratio="15" rot="R180" align="center">Up-TopLayer</text>
 <text x="57.15" y="26.8605" size="1.5875" layer="16" font="vector" ratio="15" rot="MR0" align="center">Down-TopLayer</text>
 </plain>
@@ -498,9 +496,9 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 </pass>
 </autorouter>
 <elements>
-<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LEDGER" x="24.384" y="30.226" smashed="yes">
-<attribute name="DESIGNER" value="Ricardo R." x="104.394" y="-10.414" size="1.778" layer="27" display="off"/>
-<attribute name="REV" value="" x="104.394" y="-10.414" size="1.778" layer="27" display="off"/>
+<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LEDGER" x="23.114" y="31.496" smashed="yes">
+<attribute name="DESIGNER" value="Ricardo R." x="103.124" y="-9.144" size="1.778" layer="27" display="off"/>
+<attribute name="REV" value="" x="103.124" y="-9.144" size="1.778" layer="27" display="off"/>
 </element>
 <element name="E$1" library="SparkFun-Hardware" package="STAND-OFF-TIGHT" value="" x="-3.175" y="0" smashed="yes">
 <attribute name="NAME" x="-3.175" y="1.651" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -41,7 +41,7 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
@@ -230,8 +230,6 @@
 <hole x="29.21" y="21.59" drill="1.700021875"/>
 <hole x="26.67" y="21.59" drill="1.700021875"/>
 <hole x="24.13" y="21.59" drill="1.700021875"/>
-<hole x="5.434990625" y="15.748" drill="1.700021875"/>
-<hole x="5.434990625" y="7.112" drill="1.700021875"/>
 <hole x="1.2549875" y="15.748" drill="1.700021875"/>
 <hole x="1.2549875" y="7.112" drill="1.700021875"/>
 <wire x1="6.477" y1="1.905" x2="8.763" y2="1.905" width="0.2032" layer="20"/>
@@ -265,6 +263,45 @@
 <wire x1="83.566" y1="13.335" x2="86.36" y2="13.335" width="0.2032" layer="20"/>
 <wire x1="86.36" y1="13.335" x2="86.36" y2="17.145" width="0.2032" layer="20"/>
 <text x="48.26" y="31.496" size="1.778" layer="51" font="vector" ratio="15">Ricardo R.</text>
+<polygon width="0.2032" layer="46">
+<vertex x="0.635" y="13.716"/>
+<vertex x="0.635" y="9.144"/>
+<vertex x="4.318" y="9.144"/>
+<vertex x="4.318" y="5.08"/>
+<vertex x="6.477" y="5.08"/>
+<vertex x="6.477" y="1.905"/>
+<vertex x="8.763" y="1.905"/>
+<vertex x="8.763" y="15.113"/>
+<vertex x="8.763" y="15.24"/>
+<vertex x="13.97" y="15.24"/>
+<vertex x="13.97" y="22.479"/>
+<vertex x="4.572" y="22.479"/>
+<vertex x="4.572" y="13.716"/>
+</polygon>
+<polygon width="0.2032" layer="46">
+<vertex x="21.082" y="12.065"/>
+<vertex x="29.845" y="12.065"/>
+<vertex x="29.845" y="8.128"/>
+<vertex x="21.082" y="8.128"/>
+</polygon>
+<polygon width="0.2032" layer="46">
+<vertex x="39.37" y="17.145"/>
+<vertex x="45.085" y="17.145"/>
+<vertex x="45.085" y="13.208"/>
+<vertex x="39.37" y="13.208"/>
+</polygon>
+<polygon width="0.2032" layer="46">
+<vertex x="63.373" y="21.082"/>
+<vertex x="63.373" y="18.034"/>
+<vertex x="67.691" y="18.034"/>
+<vertex x="67.691" y="0.508"/>
+<vertex x="83.566" y="0.508"/>
+<vertex x="83.566" y="13.335"/>
+<vertex x="86.36" y="13.335"/>
+<vertex x="86.36" y="17.145"/>
+<vertex x="83.566" y="17.145"/>
+<vertex x="83.566" y="21.082"/>
+</polygon>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">

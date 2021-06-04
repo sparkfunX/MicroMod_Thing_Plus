@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -41,7 +41,7 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
@@ -212,9 +212,9 @@
 <text x="124.46" y="8.89" size="2.54" layer="21" font="vector" ratio="15" align="center">v10</text>
 <text x="113.157" y="76.962" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="center">Serial</text>
 <text x="109.22" y="62.23" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="center">I2C</text>
-<text x="121.92" y="81.28" size="5.08" layer="21" ratio="15" align="center">#1234</text>
-<text x="71.12" y="67.31" size="2.54" layer="21" ratio="15" align="center">THINGPLUS-MICROMOD</text>
-<text x="15.24" y="80.01" size="2.54" layer="21" ratio="15" align="center">1234</text>
+<text x="123.19" y="81.28" size="5.08" layer="21" ratio="15" align="center">#88</text>
+<text x="71.12" y="67.31" size="2.54" layer="21" ratio="15" align="center">MicroMod Thing Plus</text>
+<text x="20.32" y="80.01" size="2.54" layer="21" ratio="15" align="center">18027</text>
 <wire x1="40.767" y1="34.925" x2="43.053" y2="34.925" width="0.2032" layer="20"/>
 <wire x1="40.767" y1="38.1" x2="40.767" y2="34.925" width="0.2032" layer="20"/>
 <wire x1="55.372" y1="45.085" x2="64.135" y2="45.085" width="0.2032" layer="20"/>
@@ -251,6 +251,46 @@
 <text x="60.1400125" y="43.053" size="1.016" layer="20" ratio="15" rot="R180" align="center">Route Out</text>
 <text x="76.6500125" y="48.133" size="1.016" layer="20" ratio="15" rot="R180" align="center">Route
 Out</text>
+<polygon width="0.2032" layer="46">
+<vertex x="34.925" y="46.736"/>
+<vertex x="38.862" y="46.736"/>
+<vertex x="38.862" y="55.499"/>
+<vertex x="48.26" y="55.499"/>
+<vertex x="48.26" y="48.26"/>
+<vertex x="43.053" y="48.26"/>
+<vertex x="43.053" y="34.925"/>
+<vertex x="40.767" y="34.925"/>
+<vertex x="40.767" y="38.1"/>
+<vertex x="38.608" y="38.1"/>
+<vertex x="38.608" y="42.164"/>
+<vertex x="34.925" y="42.164"/>
+</polygon>
+<polygon width="0.2032" layer="46">
+<vertex x="55.372" y="45.085"/>
+<vertex x="64.135" y="45.085"/>
+<vertex x="64.135" y="41.148"/>
+<vertex x="55.372" y="41.148"/>
+<vertex x="55.372" y="44.958"/>
+</polygon>
+<polygon width="0.2032" layer="46">
+<vertex x="73.66" y="50.165"/>
+<vertex x="79.375" y="50.165"/>
+<vertex x="79.375" y="46.228"/>
+<vertex x="73.66" y="46.228"/>
+</polygon>
+<polygon width="0.2032" layer="46">
+<vertex x="97.663" y="54.102"/>
+<vertex x="97.663" y="51.054"/>
+<vertex x="101.981" y="51.054"/>
+<vertex x="101.981" y="33.528"/>
+<vertex x="102.108" y="33.528"/>
+<vertex x="117.856" y="33.528"/>
+<vertex x="117.856" y="46.355"/>
+<vertex x="120.65" y="46.355"/>
+<vertex x="120.65" y="50.165"/>
+<vertex x="117.856" y="50.165"/>
+<vertex x="117.856" y="54.102"/>
+</polygon>
 </plain>
 <libraries>
 <library name="SparkFun-Jumpers">
