@@ -43,6 +43,9 @@
 // Global macros definitions
 #define TIMEOUT_MSEC 2000
 
+// Board version - uncomment for using V10
+#define V11
+
 enum PACKET_HEADERS : uint8_t
 {
   HDR_ALIVE = 0xa0,
@@ -2037,7 +2040,13 @@ void loop()
     pinMode(I2C_EN, OUTPUT);
     digitalWrite(I2C_EN, HIGH);
     pinMode(SERIAL_EN, OUTPUT);
+
+    #ifdef V11
+    digitalWrite(SERIAL_EN, HIGH);
+    #else
     digitalWrite(SERIAL_EN, LOW);
+    #endif
+
     pinMode(USB_EN, OUTPUT);
     digitalWrite(USB_EN, HIGH);
 
